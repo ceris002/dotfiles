@@ -1,0 +1,12 @@
+.bash_profile
+.bashrc
+.xinitrc
+.config/alacritty
+.config/betterlockscreen
+.config/dunst
+.config/i3
+.config/i3status-rust
+.config/kitty
+.config/lf
+.config/mpv
+.config/nitrogen

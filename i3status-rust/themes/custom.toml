@@ -1,0 +1,22 @@
+# set $bg       #282828
+# set $fg       #d4be98
+# set $red      #ea6962
+# set $orange   #e78a4e
+# set $green    #a9b665
+# set $blue     #7daea3
+# set $purple   #d3869b
+# set $aqua     #89b482
+# set $darkgray #282828
+idle_bg = "#282828"
+idle_fg = "#d4be98"
+info_bg = "#282828"
+info_fg= "#d4be98"
+# info_fg = "#ebdbb2"
+good_bg = "#282828"
+good_fg = "#d4be98"
+warning_bg = "#282828"
+warning_fg = "#e78a4e"
+critical_bg = "#282828"
+critical_fg = "#ea6962"
+separator = "|"
+separator_fg = "#e78a4e"
