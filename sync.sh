@@ -5,12 +5,14 @@ set -e
 SOURCE_PATH="sources.txt"
 
 while read file; do
-  PATHS=$HOME/"$file"
+  CONF_PATH=$HOME/"$file"
 # then
-if [[ -d $PATHS || -f $PATHS ]]
+if [[ -d $CONF_PATH || -f $CONF_PATH ]]
 then
-    cp -R $PATHS .
+    echo "syncing $CONF_PATH..."
+    cp -R $CONF_PATH .
 else
-    echo "$PATHS: no such file or directory"
+    echo "$CONF_PATH: no such file or directory"
 fi
 done <$SOURCE_PATH
+echo "all files synced"
