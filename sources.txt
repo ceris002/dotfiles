@@ -10,3 +10,4 @@
 .config/lf
 .config/mpv
 .config/nitrogen
+.config/nvim
