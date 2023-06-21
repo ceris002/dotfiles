@@ -151,7 +151,7 @@ vim.cmd.colorscheme 'gruber-darker'
 -- :hi linenr guibg=#000000 guifg=#ffffff
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = "number"
-vim.api.nvim_set_hl(0, 'CursorLineNr', { fg = '#cba6f7', bold = false })
+vim.api.nvim_set_hl(0, 'CursorLineNr', { fg = '#FFDD33', bold = false })
 require("mason").setup({
     ui = {
         border = "rounded"

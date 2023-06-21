@@ -19,6 +19,9 @@ export PATH="$HOME/go/bin:$PATH"
 # Add pip to PATH
 export PATH="$HOME/.local/bin:$PATH"
 
+# Add cargo to PATH
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # Environment variables for vaapi firefox hardware acceleration
 export NVD_BACKEND=direct
 export MOZ_DISABLE_RDD_SANDBOX=1

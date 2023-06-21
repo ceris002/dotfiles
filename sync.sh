@@ -15,4 +15,4 @@ else
     echo "$CONF_PATH: no such file or directory"
 fi
 done <$SOURCE_PATH
-echo "all files synced"
+echo "all files are synced"
